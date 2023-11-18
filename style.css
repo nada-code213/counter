@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 24px;
+}
+.container input {
+  height: 250px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid rgb(137, 43, 226);
+  font-size: 64px;
+  cursor: pointer;
+}
+.count {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(137, 43, 226, 0.252);
+  border-radius: 8px;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
